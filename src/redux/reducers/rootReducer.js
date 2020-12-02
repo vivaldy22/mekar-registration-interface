@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import { province } from "./user";
+import { userReducer } from "./user";
 
 export const rootReducer = combineReducers({
-  province,
+  userReducer,
 });

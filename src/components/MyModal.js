@@ -29,7 +29,7 @@ const MyModal = ({
                 fluid
                 selection
                 search
-                options={optionsJobs}
+                // options={optionsJobs}
                 placeholder={"--Pilih Pekerjaan-"}
                 // onChange={handleTypeChange}
               />
@@ -40,7 +40,7 @@ const MyModal = ({
                 fluid
                 selection
                 search
-                options={optionsEdu}
+                // options={optionsEdu}
                 placeholder={"--Pilih Pendidikan--"}
                 // onChange={handleTypeChange}
               />

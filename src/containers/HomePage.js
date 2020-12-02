@@ -7,9 +7,9 @@ const HomePage = (props) => {
       <SegmentContainer
         h1="Welcome Admin!"
         h2="Don't forget to always wash your hands!"
-        linkTo="/provinces"
-        name="provinces"
-        btnName="See Provinces List"
+        linkTo="/users"
+        name="users"
+        btnName="See Users List"
       />
     </div>
   );

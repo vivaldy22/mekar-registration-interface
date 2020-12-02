@@ -11,9 +11,9 @@ const Navbar = ({ onLogout, auth }) => {
             <Icon name="home" />
             Home
           </Menu.Item>
-          <Menu.Item as={NavLink} to="/provinces" name="provinces">
-            <Icon name="compass" />
-            Provinces
+          <Menu.Item as={NavLink} to="/users" name="users">
+            <Icon name="user" />
+            Users
           </Menu.Item>
           <Menu.Menu position="right">
             <Menu.Item name="logout" onClick={onLogout}>
